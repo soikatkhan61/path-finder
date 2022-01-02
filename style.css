@@ -1,0 +1,100 @@
+body{
+    background-color: #212534!important;
+}
+.main{
+    display: grid;
+    grid-template-columns:25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+    grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+    grid-auto-flow: row;
+    
+}
+
+.block{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(175, 216, 248);
+   
+}
+
+.start_block{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgb(217, 255, 5);
+   
+}
+
+.end_block{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(175, 216, 248);
+    background-color: #01F7F7;
+   
+}
+
+.wall_block{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(175, 216, 248);
+    background-color:#F52931;
+   
+}
+
+.path_block{
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(175, 216, 248);
+    background: #1CB96F;
+   
+}
+
+.block-closed-wall{
+    width: 25px;
+    height: 25px;
+    background-color:#F52931;
+}
+
+.block-closed-start{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(217, 255, 5);
+}
+
+.block-closed-end{
+    width: 25px;
+    height: 25px;
+    background-color:#01F7F7;
+}
+
+.button{
+    margin: 10px;
+    padding: 15px 2px;
+    color: white;
+    background-color: crimson;
+    max-width: 250px;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 2px;
+}
+
+#messages{
+    border: 1px solid white;
+    max-width: 60%;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.path{
+    width: 25px;
+    height: 25px;
+    background: #1CB96F;
+}
+
+.visited{
+    width: 23px;
+    height: 23px;
+    background: #f00bca;
+}
+
